@@ -351,7 +351,7 @@ if df is not None and not df.empty:
                         col3.metric(label="P-valor (Mann-Whitney U)", value=p_text_metric)
 
                         if p_value < 0.05:
-                            p_text_display = f"(p {p_text_metric})"
+                            p_text_display = f"(p = {p_text_metric})"
                             st.success(f"**Achado Significativo {p_text_display}.** Os resultados observados a partir dos dados do grupo filtrado (Mediana = {mediana_grupo:.2f}) e do restante da amostra (Mediana = {mediana_restante:.2f}), pelo Teste de Mann-Whitney U, **apresentaram-se estatisticamente significativos**.")
                         
                         else: # Se Não Significativo
