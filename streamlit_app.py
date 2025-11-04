@@ -49,8 +49,9 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 # --- FIM CSS ---
 
-st.title("CARGA DE TRABALHO E SÍNDROME DE BURNOUT EM PROFESSORES")
+st.title("A RELAÇÃO ENTRE A CARGA DE TRABALHO DOCENTE E O BURNOUT")
 st.markdown("Análise Exploratória por Segmentação (Filtros)")
+st.markdown("Hiro, Rafaela e Maria")
 
 # --- Função SIMPLES para carregar dados JÁ LIMPOS do disco ---
 @st.cache_data
