@@ -50,8 +50,9 @@ st.markdown(f"""
 # --- FIM CSS ---
 
 st.title("A RELAÇÃO ENTRE A CARGA DE TRABALHO DOCENTE E O BURNOUT")
-st.markdown("Análise Exploratória por Segmentação (Filtros)")
-st.markdown("Hiro, Rafaela e Maria")
+st.markdown("Análise do Equilíbrio entre a Demanda Profissional e o Bem-estar")
+st.markdown("Dashboard versão 1: Segmentação Interativa por Filtros")
+st.markdown("Autores: Hiro Martins Santos, Maria Clara da Silva e Rafaela Vieira dos Santos")
 
 # --- Função SIMPLES para carregar dados JÁ LIMPOS do disco ---
 @st.cache_data
